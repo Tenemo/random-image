@@ -18,6 +18,9 @@ dist/
 
 # temporary and local development files
 dev/
+temp
+_temp
 .vscode/
 .DS_Store
+pictures/*
 
