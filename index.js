@@ -1,10 +1,14 @@
+import glob from "glob";
+import path from "path";
+var exec = require("child_process").exec;
 
-var stdin = process.openStdin();
+function randomArrayElement(array) {
+    return array[Math.floor(Math.random() * array.length)];
+}
 
-stdin.addListener("data", function(d) {
-    // note:  d is an object, and when converted to a string it will
-    // end with a linefeed.  so we (rather crudely) account for that  
-    // with toString() and then trim() 
-    console.log("you entered: [" + 
-        d.toString().trim() + "]");
-  });
+glob("pictures/**/*.*", {}, (err, files) => {
+    const picturePath = path.resolve(
+        __dirname + "/" + randomArrayElement(files)
+    );
+    exec('%SystemRoot%\\explorer.exe "' + picturePath + '"');
+});

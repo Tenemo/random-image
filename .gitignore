@@ -22,5 +22,6 @@ temp
 _temp
 .vscode/
 .DS_Store
-pictures/*
 
+pictures/*
+!pictures/examples/**
