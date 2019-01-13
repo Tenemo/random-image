@@ -1,0 +1,42 @@
+{
+    "name": "slajdowka",
+    "version": "0.0.1",
+    "description": "Najlepsze slajdy",
+    "scripts": {
+        "start": "babel-node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tenemo/slajdowka.git"
+    },
+    "author": "tenemo@gmail.com",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/Tenemo/slajdowka/issues"
+    },
+    "homepage": "https://github.com/Tenemo/slajdowka#readme",
+    "dependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/node": "^7.2.2",
+        "@babel/plugin-proposal-json-strings": "^7.2.0",
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@babel/plugin-syntax-import-meta": "^7.2.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+        "@babel/preset-env": "^7.2.3",
+        "babel-eslint": "^10.0.1",
+        "babel-loader": "^8.0.5",
+        "babel-plugin-module-resolver": "^3.1.1",
+        "eslint": "^5.12.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-config-prettier": "^3.4.0",
+        "eslint-import-resolver-babel-module": "^4.0.0",
+        "eslint-import-resolver-webpack": "^0.10.1",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "prettier": "^1.15.3",
+        "rimraf": "^2.6.3",
+        "stylelint": "^9.9.0",
+        "stylelint-config-recommended": "^2.1.0"
+    }
+}
