@@ -19,6 +19,7 @@
                 "alias": {
                     "actions": "./src/actions",
                     "components": "./src/components",
+                    "config": "./config",
                     "containers": "./src/containers",
                     "reducers": "./src/reducers",
                     "selectors": "./src/selectors",
