@@ -25,4 +25,4 @@ _temp
 
 pictures/*
 !pictures/examples/**
-config/lessonConfig.js
+config/lessonConfig.json
