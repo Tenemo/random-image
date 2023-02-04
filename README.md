@@ -1,4 +1,4 @@
-# slajdowka
+# random-image
 
 Tool for displaying images in a folder (and all nested folders) in a random order. Keeps track of what you have already reviewed. Current lesson is persistent between sessions.
 
